@@ -25,6 +25,8 @@ La Pila de Ejecución es una estructura dinámica en la cuál se almacenan
 las variables locales y las instrucciones a ejecutar de nuestro programa.
 El Call Stack es controlado por el compilador.
 Supongamos que tenemos el siguiente código:
+
+`Ejemplo 01`
 ```C
   int sumar_enteros(int a, int b){
     return a + b;
@@ -65,7 +67,7 @@ Para ello, debemos definir un puntero el cual apuntará a un vector en el Heap y
 la forma de agrandar o achicar su longitud es pidiendole mas o menos memoria al SO, utilizando
 la función Realloc.
 
-Ejemplo 0.1
+`Ejemplo 02`
 ```C
     int main(){
         int cantidad_elementos = 5;
@@ -89,6 +91,8 @@ Después le solicitamos elementos al usuario para agregarlos al vector dinámico
 una vez que hemos terminado de trabajar con él, liberamos la memoria utilizada.
 
 En caso de querer agregar mas elementos, deberíamos utilizar Realloc.
+
+`Ejemplo 03`
 ```C
     int main(){
         int cantidad_elementos = 5;
@@ -124,7 +128,8 @@ donde el struct a su vez tiene un vector dinámico, debemos saber liberar la mem
 de manera correcta.
 
 [Gráfico fundamental y explicativo](https://excalidraw.com/#json=E9Uvk6mqHuHkdrZM_dNTZ,3rbcCxy3I0SinrlVkq7j2w)
-Ejemplo 0.2
+
+`Ejemplo 04`
 ```C
 #include <stdlib.h>
 #include <stdio.h>
@@ -214,7 +219,7 @@ En primer lugar cuando invocamos la función, debemos indicarle la dirección de
 Ya que si no, estaremos trabajando con las direcciones y no con los valores que
 poseen las direcciones.
 
-*Para obtener la dirección de memoria de un entero (o cualquier tipo) se utiliza el simbolo &*
+`Para obtener la dirección de memoria de un entero (o cualquier tipo) se utiliza el simbolo &`
 
 `Para poder desreferenciar las direcciones de memorias, utilizamos *`
 
@@ -222,7 +227,7 @@ Ejemplo simple: La dirección de memoría 0x23AF almacena el valor del número e
 Nosotros cuando invoquemos la función le indicamos la dirección 0x23AF y luego,
 en la función la desreferenciamos para obtener el valor del numero entero 47.
 
-Ejemplo 03
+`Ejemplo 05`
 ```C
     #include <stdio.h>
 
