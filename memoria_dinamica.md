@@ -121,6 +121,7 @@ nuevos al vector.
 En caso de utilizar un vector dinámico en el cuál almacenaremos un struct,
 donde el struct a su vez tiene un vector dinámico, debemos saber liberar la memoria
 de manera correcta.
+
 [Gráfico fundamental y explicativo](https://excalidraw.com/#json=E9Uvk6mqHuHkdrZM_dNTZ,3rbcCxy3I0SinrlVkq7j2w)
 Ejemplo 0.2
 ```C
