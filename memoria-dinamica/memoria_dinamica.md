@@ -216,7 +216,7 @@ poseen las direcciones.
 
 *Para obtener la dirección de memoria de un entero (o cualquier tipo) se utiliza el simbolo &*
 
-*Para poder desreferenciar las direcciones de memorias, utilizamos **
+`Para poder desreferenciar las direcciones de memorias, utilizamos *`
 
 Ejemplo simple: La dirección de memoría 0x23AF almacena el valor del número entero 47.
 Nosotros cuando invoquemos la función le indicamos la dirección 0x23AF y luego,
