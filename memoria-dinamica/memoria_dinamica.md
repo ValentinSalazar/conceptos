@@ -207,14 +207,18 @@ Suponte que queremos realizar una función que no retorna nada, solo realiza
 cambios en los valores que le pasamos por parametro.
 
 En primer lugar cuando invocamos la función, debemos indicarle la dirección de memoria con las que estará trabajando. Y luego, en la función misma, debemos desreferenciar los punteros para poder obtener los valores concretos.
+
 *Para obtener la dirección de memoria de una variable entera (o cualquier tipo)
 se utiliza el simbolo &*
 
 Ya que si no, estaremos trabajando con las direcciones y no con los valores que
 poseen las direcciones.
+
 *Para poder desreferenciar las direcciones de memorias, utilizamos **
 
-Ejemplo simple: La dirección de memoría 0x23AF almacena el valor del número entero 47. Nosotros cuando invoquemos la función le indicamos la dirección 0x23AF y luego,
+Ejemplo simple: La dirección de memoría 0x23AF almacena el valor del número entero 47.
+
+Nosotros cuando invoquemos la función le indicamos la dirección 0x23AF y luego,
 en la función la desreferenciamos para obtener el valor del numero entero 47.
 
 Ejemplo 03
