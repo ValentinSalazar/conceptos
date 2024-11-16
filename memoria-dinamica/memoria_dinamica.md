@@ -197,13 +197,16 @@ int main(){
 ```
 
 ### Punteros en funciones
-Otro de los casos donde podemos utilizar punteros es en funciones *void*
+Otro de los casos donde podemos utilizar punteros es en funciones *void.*
+
 Suponte que queremos realizar una función que no retorna nada, solo realiza
 cambios en los parametros que le pasamos por parametro.
+
 En primer lugar, debemos invocar la función e indicarle la dirección de memoria
 con las que estará trabajando. Y luego, en la función misma, debemos desreferenciar
-los punteros para poder obtener los valores concretos. Ya que si no, estaremos
-trabajando con las direcciones y no con los valores.
+los punteros para poder obtener los valores concretos.
+
+Ya que si no, estaremos trabajando con las direcciones y no con los valores.
 Para poder desreferenciar las direcciones de memorias, utilizamos "*".
 
 Ejemplo 03
