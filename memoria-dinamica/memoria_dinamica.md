@@ -214,10 +214,8 @@ Tal vez estemos trabajando con alguna estructura de datos que contiene muchos el
 Suponte que queremos realizar una función que no retorna nada, solo realiza
 cambios en los valores que le pasamos por parametro.
 
-En primer lugar cuando invocamos la función, debemos indicarle la dirección de memoria con las que estará trabajando. Y luego, en la función misma, debemos desreferenciar los punteros para poder obtener los valores concretos.
-
-Ya que si no, estaremos trabajando con las direcciones y no con los valores que
-poseen las direcciones.
+En primer lugar cuando invocamos la función, debemos indicarle la dirección de memoria con las que estará trabajando. Y luego, en la función misma, debemos desreferenciar los punteros para poder obtener los valores concretos. 
+Ya que si no, estaremos trabajando con las direcciones y no con los valores que poseen las direcciones.
 
 `Para obtener la dirección de memoria de un entero (o cualquier tipo) se utiliza el simbolo &`
 
