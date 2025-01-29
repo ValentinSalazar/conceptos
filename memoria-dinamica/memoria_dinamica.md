@@ -110,6 +110,11 @@ En caso de querer agregar mas elementos, deberíamos utilizar Realloc.
         }
 
         vector_dinamico = realloc(vector_dinamico, sizeof(int) * 3);
+        if (vector_dinamico == NULL) {
+            printf("Error al reservar espacio de memoria");
+            return -1;
+        }
+      
         *(vector_dinamico + 5) = 29;
         *(vector_dinamico + 6) = 37;
         *(vector_dinamico + 7) = 52;
